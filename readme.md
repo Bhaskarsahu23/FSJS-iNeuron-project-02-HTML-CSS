@@ -9,7 +9,7 @@
 
 ![image](https://img.shields.io/badge/BHASKAR-SAHU-blue)
 
-[<img src= "https://img.shields.io/badge/projcet live link-10b?style=for-the-badge&logo=&logoColor=white" />](https://fsjs-ineuron-project-01-html-css.netlify.app/)
+[<img src= "https://img.shields.io/badge/projcet live link-10b?style=for-the-badge&logo=&logoColor=white" />](https://fsjs-ineuron-project-02-html-css.netlify.app/)
 
 ## About
 
@@ -29,4 +29,4 @@ This project took me around 2 hour to finish.
 
 ![image](./screenshot/Screenshot.png)
 
-[<img src= "https://img.shields.io/badge/PROJCET LINK-1DA55F?style=for-the-badge&logo=&logoColor=white" />](https://fsjs-ineuron-project-01-html-css.netlify.app/)
+[<img src= "https://img.shields.io/badge/PROJCET LINK-1DA55F?style=for-the-badge&logo=&logoColor=white" />](https://fsjs-ineuron-project-02-html-css.netlify.app/)

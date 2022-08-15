@@ -1,0 +1,134 @@
+:root {
+    --cl-white: hsl(0, 0%, 100%);
+    --cl-yellow: hsla(42, 100%, 60%, 0.838);
+    --cl-pink: hsl(355, 100%, 66%);
+    --cl-blue: hsla(229, 38%, 20%, 0.756);
+
+    --ff-primary: 'Red Rose', cursive;
+    --ff-secondry: 'Dela Gothic One', san-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--ff-primary);
+}
+
+html {
+    font-size: 62.5%;
+    width: 100%;
+    min-height: 100vh;
+}
+
+ul li {
+    list-style: none;
+}
+
+.container {
+    position: relative;
+}
+
+/* ------------------------------ */
+/* ---------- NAVBAR ------------ */
+/* ------------------------------ */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: +1111;
+    padding: 2rem 9rem 0 7rem;
+}
+.navbar div > img {
+    width: 12rem;
+    padding-top: 2rem;
+    cursor: pointer;
+}
+
+.navbar .list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--cl-yellow);
+    font-size: 1.8rem;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.navbar .list li:not(:first-child) {
+    margin-left: 6rem;
+}
+
+.navbar .list li:hover {
+    color: var(--cl-pink);
+    font-size: 2rem;
+}
+
+.navbar .button-small {
+    color: var(--cl-white);
+    background-color: var(--cl-pink);
+    padding: 0.8rem 3rem;
+    border: none;
+    font-size: 2rem;
+    letter-spacing: 0.2rem;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.navbar .button-small:hover {
+    color: var(--cl-pink);
+    background-color: var(--cl-white);
+}
+
+/* ------------------------------ */
+/* ---------- HERO ------------ */
+/* ------------------------------ */
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(to right, var(--cl-blue), var(--cl-blue)),
+        url(./assets/pexels-maxyne-barcel-10402282\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top 20%;
+    z-index: -1;
+}
+
+.hero .hero-heading {
+    font-size: 10rem;
+    text-align: center;
+    line-height: 1.2;
+    margin-top: 4rem;
+    padding: 12rem;
+    font-family: var(--ff-secondry);
+    color: var(--cl-yellow);
+}
+
+.hero .button-large {
+    margin-top: -8rem;
+    padding: 2rem 4rem;
+    font-size: 2rem;
+    text-align: center;
+    color: var(--cl-white);
+    background-color: var(--cl-pink);
+    border: none;
+    cursor: pointer;
+}
+
+.hero .button-large:hover {
+    color: var(--cl-pink);
+    background-color: var(--cl-white);
+}
+
+.hero .bottom {
+    margin-top: -4rem;
+    margin-left: 120rem;
+}
